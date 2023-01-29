@@ -39,7 +39,7 @@ function Textarea(props) {
 
   return (
     <>
-      <div>
+      <div className="container">
         <h2
           className={` mt-3 text-${props.mode === "light" ? "dark" : "light"}`}
         >
